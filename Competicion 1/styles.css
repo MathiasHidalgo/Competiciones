@@ -1,0 +1,45 @@
+body {
+    background: #B01D15;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+
+.main img {
+    max-width: 80%;
+}
+
+.main .title {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.soundtrack {
+    background: #AA1100;
+}
+
+.playable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Write a better and responsive way to align the list icon and the list component itself*/
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+
+.list p {
+    color: white;
+    padding: 0 20px 0 0;
+}
+
+/* Write a better and responsive way to align the list icon and the list component itself*/
+
